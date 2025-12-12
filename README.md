@@ -1,4 +1,6 @@
 Ecommerce — Backend
+
+
 This is a Spring Boot-based backend for an e-commerce application, providing RESTful APIs for user management, product catalog, order processing, and category management.
 Tech stack: Java 17, Spring Boot 3.5.0, Spring Data JPA,Spring Security, MySQL, Lombok, Maven
 
