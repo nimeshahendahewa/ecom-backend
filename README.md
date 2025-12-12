@@ -1,4 +1,4 @@
-## Ecommerce — Backend
+# Ecommerce — Backend
 
 This is a Spring Boot-based backend for an e-commerce application, providing RESTful APIs for user management, product catalog, order processing, and category management.
 Tech stack: Java 17, Spring Boot 3.5.0, Spring Data JPA,Spring Security, MySQL, Lombok, Maven
@@ -7,7 +7,7 @@ Frontend: The frontend for this project is in a separate repository: https://git
 
 Application config is in src/main/resources/application.properties.
 
-# Database Setup:
+## Database Setup:
 
 CREATE DATABASE ecommerce_db;
 
@@ -17,13 +17,13 @@ spring.datasource.url=jdbc:mysql://localhost:3306/ecommerce_db
 spring.datasource.username=your_username
 spring.datasource.password=your_password
 
-# CORS Configuration
+## CORS Configuration
 
 The backend is configured to accept requests from http://localhost:3000 for frontend integration.
 
 Adjust these values for your environment or use environment-specific overrides.
 
-# Build & Run
+## Build & Run
 
 Clone the backend repository
 git clone <your-backend-repo-url>
@@ -37,7 +37,7 @@ mvn spring-boot:run
 
 After Setup Frontend
 
-# API Summary Base path: /api
+## API Summary Base path: /api
 
 Authentication
 
@@ -63,13 +63,14 @@ GET /api/orders - Get all orders (ADMIN)
 GET /api/orders/customer/{email} - Get orders by customer email
 GET /api/orders/{id} - Get order by ID
 
-# Default Admin Credentials
+## Default Admin Credentials
 
 Email: admin@gmail.com
+
 Password: admin123
 
-Backend Server: http://localhost:8080
+# Backend Server: http://localhost:8080
 
-Frontend URL: http://localhost:3000
+# Frontend URL: http://localhost:3000
 
-Database: MySQL on localhost:3306
+# Database: MySQL on localhost:3306
